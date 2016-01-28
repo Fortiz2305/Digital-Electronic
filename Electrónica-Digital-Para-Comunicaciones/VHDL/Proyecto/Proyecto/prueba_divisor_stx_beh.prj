@@ -1,0 +1,2 @@
+vhdl isim_temp "../src/divisor.vhd"
+vhdl isim_temp "../src/prueba_divisor.vhd"

@@ -1,0 +1,2 @@
+vhdl work "../src/divisor.vhd"
+vhdl work "../src/prueba_divisor.vhd"

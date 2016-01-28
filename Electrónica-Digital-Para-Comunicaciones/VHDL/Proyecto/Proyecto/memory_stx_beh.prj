@@ -1,0 +1,2 @@
+vhdl isim_temp "../src/coef_memory.vhd"
+vhdl isim_temp "../src/memory.vhd"

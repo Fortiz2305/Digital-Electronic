@@ -1,0 +1,8 @@
+vhdl work "../src/divisor.vhd"
+vhdl work "../src/reg_retraso.vhd"
+vhdl work "../src/registro_yk.vhd"
+vhdl work "../src/multiplicaysatura2.vhd"
+vhdl work "../src/multiplicaconj.vhd"
+vhdl work "../src/module.vhd"
+vhdl work "../src/conjugador.vhd"
+vhdl work "../src/ecualizador.vhd"

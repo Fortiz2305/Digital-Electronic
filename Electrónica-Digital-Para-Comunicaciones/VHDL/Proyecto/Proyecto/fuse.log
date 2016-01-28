@@ -1,0 +1,93 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Proyecto/Proyecto/proyecto_tb_isim_beh.exe -prj C:/Proyecto/Proyecto/proyecto_tb_beh.prj work.proyecto_tb 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Proyecto/Proyecto/../src/coef_memory.vhd" into library work
+Parsing VHDL file "C:/Proyecto/Proyecto/../src/pilot_memory.vhd" into library work
+Parsing VHDL file "C:/Proyecto/Proyecto/../src/hest_memory.vhd" into library work
+Parsing VHDL file "C:/Proyecto/Proyecto/../src/divisor.vhd" into library work
+Parsing VHDL file "C:/Proyecto/Proyecto/../src/txt_util.vhd" into library work
+Parsing VHDL file "C:/Proyecto/Proyecto/../src/reg_retraso.vhd" into library work
+Parsing VHDL file "C:/Proyecto/Proyecto/../src/reg_bin.vhd" into library work
+Parsing VHDL file "C:/Proyecto/Proyecto/../src/registro_yk.vhd" into library work
+Parsing VHDL file "C:/Proyecto/Proyecto/../src/multiplicaysatura2.vhd" into library work
+Parsing VHDL file "C:/Proyecto/Proyecto/../src/multiplicaconj.vhd" into library work
+Parsing VHDL file "C:/Proyecto/Proyecto/../src/module.vhd" into library work
+Parsing VHDL file "C:/Proyecto/Proyecto/../src/image_pkg.vhd" into library work
+Parsing VHDL file "C:/Proyecto/Proyecto/../src/conjugador.vhd" into library work
+Parsing VHDL file "C:/Proyecto/Proyecto/../src/vhdl_verification.vhd" into library work
+Parsing VHDL file "C:/Proyecto/Proyecto/../src/memoryhestwriter.vhd" into library work
+Parsing VHDL file "C:/Proyecto/Proyecto/../src/interruptor.vhd" into library work
+Parsing VHDL file "C:/Proyecto/Proyecto/../src/generaaddress_waiting.vhd" into library work
+Parsing VHDL file "C:/Proyecto/Proyecto/../src/fsm.vhd" into library work
+Parsing VHDL file "C:/Proyecto/Proyecto/../src/ecualizador.vhd" into library work
+Parsing VHDL file "C:/Proyecto/Proyecto/../src/datawrite.vhd" into library work
+Parsing VHDL file "C:/Proyecto/Proyecto/../src/fsm_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 132076 KB
+Fuse CPU Usage: 1559 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_signed
+Compiling package vhdl_verification
+Compiling package textio
+Compiling package std_logic_textio
+Compiling package image_pkg
+Compiling package txt_util
+Compiling architecture fsm_behavioral of entity fsm [fsm_default]
+Compiling package std_logic_unsigned
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V7_3_output_stage [\BLK_MEM_GEN_V7_3_output_stage("...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity BLK_MEM_GEN_V7_3_softecc_output_reg_stage [\BLK_MEM_GEN_V7_3_softecc_output...]
+Compiling architecture mem_module_behavioral of entity BLK_MEM_GEN_V7_3_mem_module [\BLK_MEM_GEN_V7_3_mem_module("bl...]
+Compiling architecture behavioral of entity BLK_MEM_GEN_V7_3 [\BLK_MEM_GEN_V7_3("blk_mem_gen_v...]
+Compiling architecture coef_memory_a of entity coef_memory [coef_memory_default]
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V7_3_output_stage [\BLK_MEM_GEN_V7_3_output_stage("...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity BLK_MEM_GEN_V7_3_softecc_output_reg_stage [\BLK_MEM_GEN_V7_3_softecc_output...]
+Compiling architecture mem_module_behavioral of entity BLK_MEM_GEN_V7_3_mem_module [\BLK_MEM_GEN_V7_3_mem_module("bl...]
+Compiling architecture behavioral of entity BLK_MEM_GEN_V7_3 [\BLK_MEM_GEN_V7_3("blk_mem_gen_v...]
+Compiling architecture pilot_memory_a of entity pilot_memory [pilot_memory_default]
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V7_3_output_stage [\BLK_MEM_GEN_V7_3_output_stage("...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity BLK_MEM_GEN_V7_3_softecc_output_reg_stage [\BLK_MEM_GEN_V7_3_softecc_output...]
+Compiling architecture mem_module_behavioral of entity BLK_MEM_GEN_V7_3_mem_module [\BLK_MEM_GEN_V7_3_mem_module("bl...]
+Compiling architecture behavioral of entity BLK_MEM_GEN_V7_3 [\BLK_MEM_GEN_V7_3("blk_mem_gen_v...]
+Compiling architecture hest_memory_a of entity hest_memory [hest_memory_default]
+Compiling architecture pack_lines_and_write of entity datawrite [\datawrite("estimador_out",false...]
+Compiling architecture behavioral of entity interruptor [interruptor_default]
+Compiling architecture reg_bin_behavioral of entity reg_bin [reg_bin_default]
+Compiling architecture behavioral of entity generaaddress [generaaddress_default]
+Compiling architecture behavioral of entity generaaddress_waiting [generaaddress_waiting_default]
+Compiling package vcomponents
+Compiling package vital_timing
+Compiling package vital_primitives
+Compiling package vpkg
+Compiling architecture behavioral of entity module [module_default]
+Compiling package numeric_std
+Compiling architecture vcc_v of entity VCC [vcc_default]
+Compiling architecture gnd_v of entity GND [gnd_default]
+Compiling architecture fde_v of entity FDE [\FDE('1')\]
+Compiling architecture srlc16e_v of entity SRLC16E [\SRLC16E("0000000000000001")(0,1...]
+Compiling architecture srlc32e_v of entity SRLC32E [\SRLC32E("0000000000000000000000...]
+Compiling architecture inv_v of entity INV [inv_default]
+Compiling architecture lut1_v of entity LUT1 [\LUT1("0010")(0,3)\]
+Compiling architecture lut3_v of entity LUT3 [\LUT3("10010110")(0,7)\]
+Compiling architecture lut2_v of entity LUT2 [\LUT2("0110")(0,3)\]
+Compiling architecture muxcy_v of entity MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity XORCY [xorcy_default]
+Compiling architecture mult_and_v of entity MULT_AND [mult_and_default]
+Compiling architecture structure of entity divisor [divisor_default]
+Compiling architecture behavioral of entity conjugador [conjugador_default]
+Compiling architecture behavioral of entity reg_retraso [reg_retraso_default]
+Compiling architecture behavioral of entity multiplicaysatura [multiplicaysatura_default]
+Compiling architecture behavioral of entity multiplicaysatura2 [multiplicaysatura2_default]
+Compiling architecture behavioral of entity registro_yk [registro_yk_default]
+Compiling architecture behavioral of entity ecualizador [ecualizador_default]
+Compiling architecture pack_lines_and_write of entity datawrite [\datawrite("ecualizador_out",fal...]
+Compiling architecture behavior of entity proyecto_tb
+Time Resolution for simulation is 1ps.
+Compiled 112 VHDL Units
+Built simulation executable C:/Proyecto/Proyecto/proyecto_tb_isim_beh.exe
+Fuse Memory Usage: 176984 KB
+Fuse CPU Usage: 2963 ms

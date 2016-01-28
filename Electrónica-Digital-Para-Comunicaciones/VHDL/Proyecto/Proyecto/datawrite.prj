@@ -1,0 +1,3 @@
+vhdl work "../src/txt_util.vhd"
+vhdl work "../src/image_pkg.vhd"
+vhdl work "../src/datawrite.vhd"

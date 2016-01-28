@@ -1,0 +1,29 @@
+Command line:
+   prueba_divisor_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  49314
+
+Thu Jul 09 11:39:53 2015
+
+
+ Elaboration Time: 0.483602 sec
+
+ Current Memory Usage: 691.917 Meg
+
+ Total Signals          : 37574
+ Total Nets             : 11838
+ Total Signal Drivers   : 10629
+ Total Blocks           : 7099
+ Total Primitive Blocks : 7097
+ Total Processes        : 10566
+ Total Traceable Variables  : 5711
+ Total Scalar Nets and Variables : 38336
+Total Line Count : 25334
+
+ Total Simulation Time: 1.10761 sec
+
+ Current Memory Usage: 691.917 Meg
+
+Thu Jul 09 12:02:19 2015
+

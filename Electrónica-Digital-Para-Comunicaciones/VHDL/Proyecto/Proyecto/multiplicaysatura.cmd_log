@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Proyecto/Proyecto/multiplicaysatura.xst" -ofn "C:/Proyecto/Proyecto/multiplicaysatura.syr" 

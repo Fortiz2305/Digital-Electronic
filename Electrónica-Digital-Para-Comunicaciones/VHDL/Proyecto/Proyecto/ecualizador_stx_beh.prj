@@ -1,0 +1,8 @@
+vhdl isim_temp "../src/divisor.vhd"
+vhdl isim_temp "../src/reg_retraso.vhd"
+vhdl isim_temp "../src/registro_yk.vhd"
+vhdl isim_temp "../src/multiplicaysatura2.vhd"
+vhdl isim_temp "../src/multiplicaconj.vhd"
+vhdl isim_temp "../src/module.vhd"
+vhdl isim_temp "../src/conjugador.vhd"
+vhdl isim_temp "../src/ecualizador.vhd"

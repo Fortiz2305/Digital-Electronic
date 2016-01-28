@@ -1,0 +1,2 @@
+vhdl work "../src/coef_memory.vhd"
+vhdl work "../src/memory.vhd"
